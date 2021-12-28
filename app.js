@@ -5,6 +5,8 @@ async function fetchData(city) {
     const result = document.getElementById('result')
 
     if (data) {
+        const input = document.getElementById('city');
+        input.value = '';
         const tempData = data.main.temp;
         const temp = document.createElement("p");
         const tempNode = document.createTextNode(`The current Temperature in ${city} City is: ${tempData}`);
