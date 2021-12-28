@@ -1,6 +1,41 @@
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    margin: 10vh auto 10vh auto;
+    text-align: center;
+}
+
+.container label{
+    font-size: larger;
+    margin-right: 5px;
+    color: #058DC7;
+}
+
+#city{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: #058DC7 1px solid;
+    padding: 10px;
+    color: #058DC7;
+    font-size: 16px;
+}
+
+#city::placeholder{
+    font-size: 16px;
+}
+
+.btn{
+    height: 4vh;
+    width: 5vw;
+    background-color: #058DC7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
 }
